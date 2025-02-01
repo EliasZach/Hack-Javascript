@@ -9,6 +9,10 @@
 let arr = ["foo","bar","baz","qux","echo"];
 let result = [];
 
+for (let i of arr){
+    result.push(i[0].toUpperCase()+i.slice(1))
+}
+
 
 //export result
 module.exports = result;
